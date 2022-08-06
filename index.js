@@ -12,7 +12,6 @@ const port = 5000
 require("dotenv").config();
 
 const uri = `mongodb+srv://${process.env.USER_NAME}:${process.env.USER_PASS}@cluster0.x7xfr.mongodb.net/?retryWrites=true&w=majority`;
-
 app.use(cors())
 app.use(bodyParser.json({ limit: "50mb" }))
 app.use(fileUpload())

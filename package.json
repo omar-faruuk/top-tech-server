@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start-dev": "nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "omar faruq",
@@ -17,7 +16,7 @@
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0",
     "fs-extra": "^10.1.0",
-    "mongodb": "^4.6.0",
+    "mongodb": "^4.8.1",
     "nodemon": "^2.0.16",
     "stripe": "^9.6.0"
   }
